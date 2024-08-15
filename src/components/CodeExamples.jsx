@@ -30,7 +30,7 @@ export default function CodeExamples() {
           </button>
         </div>
         <p className="w-full p-4 text-[#e2e8f0] border border-solid border-[#334155] rounded-md mt-2 md:text-base text-[0.7rem]">
-          <pre>
+          <pre className="whitespace-pre-wrap">
             <code>{PythonCode}</code>
           </pre>
         </p>
@@ -46,7 +46,7 @@ export default function CodeExamples() {
           </button>
         </div>
         <p className="w-full p-4 text-[#e2e8f0] border border-solid border-[#334155] rounded-md mt-2 md:text-base text-[0.7rem]">
-          <pre>
+          <pre className="whitespace-pre-wrap">
             <code>{JavaScriptCode}</code>
           </pre>
         </p>

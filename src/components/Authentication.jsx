@@ -16,7 +16,7 @@ export default function Authentication() {
       .catch((err) => console.error("Failed to copy text: ", err));
   };
 
-  function generateRandomString(length = 42) {
+  function generateRandomString(length = 32) {
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     let result = "";

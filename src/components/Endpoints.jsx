@@ -19,9 +19,7 @@ export default function Endpoints() {
   return (
     <Section id="endpoints">
       <div className="py-8">
-        <h2  className="text-[#a5b4fc] font-bold text-2xl">
-          Endpoints
-        </h2>
+        <h2 className="text-[#a5b4fc] font-bold text-2xl">Endpoints</h2>
         <h4 className="text-[#a5b4fc] font-bold text-xl mt-6">Generate Book</h4>
         <div className="flex flex-row flex-wrap gap-4 items-center mt-2">
           <button className="bg-[#22d3ee] text-[#0f172a] text-base font-bold px-3 rounded-md h-fit">
@@ -63,7 +61,7 @@ export default function Endpoints() {
           </button>
         </div>
         <p className="w-full p-4 text-[#e2e8f0] border border-solid border-[#334155] rounded-md mt-2 md:text-base text-[0.7rem]">
-          <pre>
+          <pre className="whitespace-pre-wrap">
             <code>{Response}</code>
           </pre>
         </p>
